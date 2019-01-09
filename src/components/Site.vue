@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
-    <menu></menu>
+  <div class="site">
+    <menuview></menuview>
     <router-view></router-view>
   </div>
 </template>
-<script>
-import Menu from "./components/SiteMenu";
-import Home from "./components/Home";
 
+<script>
+import MenuView from "@/components/SiteMenu";
 export default {
-  name: "App",
+  name: "Site",
+
   components: {
-    Home
+    menuview: MenuView
   }
 };
 </script>

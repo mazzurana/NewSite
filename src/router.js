@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "HomeView",
-      component: Home
+      name: "Site",
+      component: () => import("./components/Site.vue")
     }
   ]
 });

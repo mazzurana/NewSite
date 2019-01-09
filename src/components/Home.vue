@@ -1,13 +1,9 @@
 <template>
   <div>
-    <h1>Home</h1>
+    <h1>Hotesteme</h1>
     <p>Here is some information. This is the home page</p>
   </div>
 </template>
 
-<script>
-export default {
-  name: "HomeView" //this is the name of the component
-};
-</script>
+<script></script>
 <style></style>
