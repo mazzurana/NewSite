@@ -1,30 +1,21 @@
 <template>
   <div class="sitemenu">
-    <nav id="nav" role="navigation">
-      <a href="#nav" title="Show navigation">Show navigation</a>
-      <a href="#" title="Hide navigation">Hide navigation</a>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li>
-          <a href="/" aria-haspopup="true">Blog</a>
-          <ul>
-            <li><a href="/">Design</a></li>
-            <li><a href="/">HTML</a></li>
-            <li><a href="/">CSS</a></li>
-            <li><a href="/">JavaScript</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="/" aria-haspopup="true">Work</a>
-          <ul>
-            <li><a href="/">Web Design</a></li>
-            <li><a href="/">Typography</a></li>
-            <li><a href="/">Front-End</a></li>
-          </ul>
-        </li>
-        <li><a href="/">About</a></li>
-      </ul>
-    </nav>
+    <header>
+      <a href="#home" class="logo" data-scroll>Fixed Nav</a>
+      <nav class="nav-collapse">
+        <ul>
+          <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+          <li class="menu-item"><a href="#about" data-scroll>About</a></li>
+          <li class="menu-item">
+            <a href="#projects" data-scroll>Projects</a>
+          </li>
+          <li class="menu-item"><a href="#blog" data-scroll>Blog</a></li>
+          <li class="menu-item">
+            <a href="http://www.google.com" target="_blank">Google</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   </div>
 </template>
 
