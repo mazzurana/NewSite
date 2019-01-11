@@ -1,7 +1,30 @@
-
+// CSS to desktop
 @media (min-width: 768px) {
   //NavBar Desktop
-  .navbar {
+  .sitemenu {
     height: 100px;
   }
+  .navbar {
+    height: 100px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+}
+
+//css to mobile
+
+@media (max-width: 767px) {
+  .sitemenu {
+    min-height: 56px;
+    width: 100%;
+}
+.navbar {
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  
+  } 
 }

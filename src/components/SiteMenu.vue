@@ -57,6 +57,7 @@
     </b-navbar>
   </div>
 </template>
+
 <script>
 export default {
   name: "SiteMenu",
@@ -72,4 +73,3 @@ export default {
   }
 };
 </script>
-<style></style>
