@@ -2,24 +2,24 @@
   <div class="site">
     <menuview></menuview>
     <router-view></router-view>
-    <footer></footer>
+    <sitefooter></sitefooter>
   </div>
 </template>
 
 <script>
 import MenuView from "@/components/SiteMenu";
-import Footer from "@/components/Footer";
+import SiteFooter from "@/components/SiteFooter";
 export default {
   name: "Site",
 
-  components: [
+  components: 
     {
       menuview: MenuView,
-      footer: Footer
+      sitefooter: SiteFooter
     }
-  ],
+  ,
   beforeCreate() {
-    // or create a mixin for this purpose
+   // or create a mixin for this purpose
     if (styles.__inject__) {
       styles.__inject__(this.$ssrContext);
     }

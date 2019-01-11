@@ -1,6 +1,6 @@
 <template>
-  <b-footer color="stylish-color-dark" class="page-footer font-small pt-4 mt-4">
-    <b-container class="text-left">
+  <footer color="dark" class="page-footer font-small pt-4 mt-4">
+    <b-container fluid>
       <b-row>
         <b-col md="6">
           <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">
@@ -87,15 +87,15 @@
     <div class="footer-copyright text-center py-3">
       <b-container fluid>
         &copy; 2019 Copyright:
-        <a href="https://www.bootstrap.com"> bootstrap.com </a>
+        <a href="https://www.mazzurana.com"> mazzurana.com </a>
       </b-container>
     </div>
-  </b-footer>
+  </footer>
 </template>
 <style></style>
 <script>
 export default {
-  name: "Footer",
+  name: "SiteFooter",
   data() {
     return {
       email: "",
