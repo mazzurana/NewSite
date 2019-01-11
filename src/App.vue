@@ -10,6 +10,6 @@
 </template>
 
 <style lang="scss">
-@import "./assets/css/estilo.scss";
 @import "~bootstrap-vue/dist/bootstrap-vue.css";
+@import "./assets/css/estilo.scss";
 </style>

@@ -12,6 +12,11 @@ export default {
 
   components: {
     menuview: MenuView
-  }
-};
+  },
+  beforeCreate() { // or create a mixin for this purpose
+    if(styles.__inject__) {
+      styles.__inject__(this.$ssrContext);
+    }
+}
+}
 </script>
