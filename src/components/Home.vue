@@ -2,6 +2,31 @@
   <div class="home">
     <h1>Hotesteme</h1>
     <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
+    <p>Here is some information. This is the home page</p>
   </div>
 </template>
 

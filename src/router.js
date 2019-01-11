@@ -9,10 +9,11 @@ export default new Router({
     {
       path: "/",
       name: "Site",
+      redirect: "/home",
       component: () => import("./components/Site.vue"),
       children: [
         {
-          path: "",
+          path: "/home",
           name: "Home",
           component: () => import("./components/Home.vue")
         }

@@ -25,6 +25,9 @@ locale.use(enLang);
 
 Vue.use(VueI18n);
 Vue.use(BootstrapVue);
+import { Navbar } from "bootstrap-vue/es/components";
+
+Vue.use(Navbar);
 
 new Vue({
   router,
