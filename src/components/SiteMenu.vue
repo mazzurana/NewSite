@@ -1,7 +1,7 @@
 <template>
   <div class="sitemenu">
     <b-navbar toggleable="md" type="dark" variant="info">
-      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+      <b-navbar-toggle target="nav_collapse"> </b-navbar-toggle>
 
       <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
@@ -60,3 +60,8 @@ export default {
   }
 };
 </script>
+<style>
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+}
+</style>

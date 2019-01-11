@@ -18,6 +18,7 @@ import enLang from "element-ui/lib/locale/lang/pt-br";
 import locale from "element-ui/lib/locale";
 
 import "element-ui/lib/theme-chalk/index.css";
+import "bootstrap/scss/bootstrap.scss";
 
 Vue.config.productionTip = false;
 

@@ -11,6 +11,5 @@
 
 <style lang="scss">
 @import "./assets/css/estilo.scss";
-@import "~bootstrap/dist/css/bootstrap.css";
 @import "~bootstrap-vue/dist/bootstrap-vue.css";
 </style>
