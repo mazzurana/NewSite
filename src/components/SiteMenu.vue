@@ -35,10 +35,22 @@
           <b-nav-item-dropdown right>
             <!-- Using button-content slot -->
             <template slot="button-content">
-              <em>User</em>
+              <em>Acesse sua Conta</em>
             </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Signout</b-dropdown-item>
+            <p>Acesso a conta</p>
+            <b-form-input
+              size="sm"
+              v-model="email"
+              type="text"
+              placeholder="E-mail"
+            />
+            <b-form-input
+              size="sm"
+              class="mr-sm-2"
+              type="text"
+              placeholder="Password"
+            />
+            <b-button size="sm" variant="success sm"> Login </b-button>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
