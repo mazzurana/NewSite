@@ -86,9 +86,24 @@
     </div>
     <div class="footer-copyright text-center py-3">
       <b-container fluid>
-        &copy; 2018 Copyright:
+        &copy; 2019 Copyright:
         <a href="https://www.bootstrap.com"> bootstrap.com </a>
       </b-container>
     </div>
   </b-footer>
 </template>
+<style></style>
+<script>
+export default {
+  name: "Footer",
+  data() {
+    return {
+      email: "",
+
+      sessao: "",
+
+      tipo: ""
+    };
+  }
+};
+</script>

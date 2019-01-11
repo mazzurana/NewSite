@@ -12,10 +12,12 @@ import Footer from "@/components/Footer";
 export default {
   name: "Site",
 
-  components: {
-    menuview: MenuView,
-    footer: Footer
-  },
+  components: [
+    {
+      menuview: MenuView,
+      footer: Footer
+    }
+  ],
   beforeCreate() {
     // or create a mixin for this purpose
     if (styles.__inject__) {
